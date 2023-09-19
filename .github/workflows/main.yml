@@ -12,7 +12,7 @@ jobs:
           - uses: actions/setup-node@v2
             with:
                node-version: 12
-               run: npm install -g lambdatest-cypress-cli
+          - run:    npm install -g lambdatest-cypress-cli
                     export LT_USERNAME=naveda
                     export LT_ACCESS_KEY=Y38l1pghEBmUKFqfk5XZSPrwP9Tc2cU8eWNaBPZjRYpXhYerxb
                     lambdatest-cypress init
