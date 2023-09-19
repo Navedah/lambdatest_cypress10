@@ -16,7 +16,6 @@ jobs:
                 npm install -g lambdatest-cypress-cli
                 export LT_USERNAME=naveda
                 export LT_ACCESS_KEY=Y38l1pghEBmUKFqfk5XZSPrwP9Tc2cU8eWNaBPZjRYpXhYerxb
-                lambdatest-cypress init
                 echo "The $LT_USERNAME"
                 lambdatest-cypress --version
                 lambdatest-cypress run
