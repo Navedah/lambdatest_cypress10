@@ -33,6 +33,6 @@
    },
    "tunnel_settings": {
       "tunnel": true,
-      "tunnel_name": process.env("LT_TUNNEL_NAME")
+      "tunnel_name": "JenkinsTunnel"
    }
 }
